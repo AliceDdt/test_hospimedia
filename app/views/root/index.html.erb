@@ -1,0 +1,13 @@
+<h1>Star Wars</h1>
+
+<% @people.each do |person| %>
+  <div>
+  <p>NOM: <%= person[:name] %></p>
+  <p>POIDS: <%= person[:mass] %></p>
+  <p>PLANETE: <%= person[:homeworld] %></p>
+  <p> FILMS: <%= person[:films] %></p>
+
+  </div>
+<% end %>
+
+
